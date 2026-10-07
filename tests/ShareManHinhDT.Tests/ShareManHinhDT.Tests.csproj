@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../../src/ShareManHinhDT.Shared/ShareManHinhDT.Shared.csproj" /></ItemGroup>
+  <ItemGroup><Compile Include="../../src/ShareManHinhDT.Android/QrDecodeWorker.cs" Link="QrDecodeWorker.cs" /></ItemGroup>
+  <ItemGroup>
+    <Compile Include="../../src/ShareManHinhDT.Android/CaptureRunState.cs" Link="CaptureRunState.cs" />
+    <Compile Include="../../src/ShareManHinhDT.Android/EncoderSelection.cs" Link="EncoderSelection.cs" />
+    <Compile Include="../../src/ShareManHinhDT.Android/CameraPreviewTransform.cs" Link="CameraPreviewTransform.cs" />
+  </ItemGroup>
+</Project>

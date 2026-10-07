@@ -1,0 +1,9 @@
+.tools/
+
+**/bin/
+**/obj/
+artifacts/
+*.user
+*.pfx
+*.keystore
+.vs/

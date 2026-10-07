@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ShareManHinhDT.Shared/ShareManHinhDT.Shared.csproj" />
+    <Project Path="src/ShareManHinhDT.Windows/ShareManHinhDT.Windows.csproj" />
+    <Project Path="src/ShareManHinhDT.Android/ShareManHinhDT.Android.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ShareManHinhDT.Tests/ShareManHinhDT.Tests.csproj" />
+    <Project Path="tests/ShareManHinhDT.Windows.Tests/ShareManHinhDT.Windows.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-android36.0</TargetFramework>
+    <SupportedOSPlatformVersion>29</SupportedOSPlatformVersion>
+    <OutputType>Exe</OutputType>
+    <ApplicationId>vn.sharemanhinhdt.app</ApplicationId>
+    <ApplicationTitle>ShareManHinhDT</ApplicationTitle>
+    <ApplicationVersion>5</ApplicationVersion>
+    <ApplicationDisplayVersion>1.1.3</ApplicationDisplayVersion>
+    <RuntimeIdentifiers>android-arm64;android-arm</RuntimeIdentifiers>
+    <AndroidPackageFormats>apk</AndroidPackageFormats>
+    <RunAOTCompilation>false</RunAOTCompilation>
+    <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
+    <UseDefaultPublishRuntimeIdentifier>false</UseDefaultPublishRuntimeIdentifier>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../ShareManHinhDT.Shared/ShareManHinhDT.Shared.csproj" />
+    <AndroidAsset Include="../../THIRD-PARTY-NOTICES.md" Link="THIRD-PARTY-NOTICES.md" />
+    <AndroidAsset Include="../../licenses/ZXing.Net-LICENSE.txt" Link="licenses/ZXing.Net-LICENSE.txt" />
+  </ItemGroup>
+</Project>

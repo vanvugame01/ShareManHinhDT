@@ -1,0 +1,5 @@
+<Application x:Class="ShareManHinhDT.Windows.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Application.Resources>
+    <Style TargetType="Button"><Setter Property="Foreground" Value="#101827"/><Setter Property="Background" Value="#DBE8FA"/></Style>
+  </Application.Resources>
+</Application>
